@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
-add = __import__('0-add').add
+""" 0. Simple type annotations - addition
+"""
 
-print(add(1.11, 2.22) == 1.11 + 2.22)  # should print True
-print(add.__annotations__)  # should print {'a': <class 'float'>, 'b': <class 'float'>, 'return': <class 'float'>}
+def add(a: float, b: float) -> float:
+    """ Returns the sum of two float values.
+    """
+    return a + b
+
 
