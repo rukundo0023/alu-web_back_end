@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
-""" 0. Simple type annotations - addition
+""" 0. Basic annotations - add
 """
 
 
 def add(a: float, b: float) -> float:
-    """Returns the sum of two float values."""
+    """ Adds two float number numbers together.
+    """
     return a + b
-
-
